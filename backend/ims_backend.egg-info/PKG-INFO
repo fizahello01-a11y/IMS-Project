@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: ims-backend
+Version: 1.0.0
+Summary: Incident Management System Backend
+Requires-Python: >=3.12
+Requires-Dist: fastapi==0.115.0
+Requires-Dist: uvicorn[standard]==0.30.6
+Requires-Dist: sqlalchemy[asyncio]==2.0.35
+Requires-Dist: asyncpg==0.29.0
+Requires-Dist: alembic==1.13.3
+Requires-Dist: motor==3.6.0
+Requires-Dist: redis[hiredis]==5.1.1
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: pydantic-settings==2.5.2
+Requires-Dist: tenacity==9.0.0
+Requires-Dist: python-dateutil==2.9.0
+Requires-Dist: python-multipart==0.0.12
+Provides-Extra: dev
+Requires-Dist: pytest==8.3.3; extra == "dev"
+Requires-Dist: pytest-asyncio==0.24.0; extra == "dev"
+Requires-Dist: httpx==0.27.2; extra == "dev"
+Requires-Dist: pytest-cov==5.0.0; extra == "dev"
